@@ -13,7 +13,7 @@ Ths quick sort is not a stable sort method.
 		 while( bl<br && key>=a[bl]) bl++;
 		 a[br] = a[bl];
 	 }
-	 a[bl] = key;
+	 a[bl] = base;
 	 quick_sort(a, left, bl-1);
 	 quick_sort(a, bl+1, right);
  }
