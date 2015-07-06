@@ -8,9 +8,9 @@ Ths quick sort is not a stable sort method.
 	 int br=right;
 	 int base=a[left];
 	 while(bl<br){
-		 while( bl<br && key<a[br]) br--;
+		 while( bl<br && base<a[br]) br--;
 		 a[bl] = a[br];
-		 while( bl<br && key>=a[bl]) bl++;
+		 while( bl<br && base>=a[bl]) bl++;
 		 a[br] = a[bl];
 	 }
 	 a[bl] = base;
