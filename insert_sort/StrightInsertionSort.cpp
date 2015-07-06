@@ -1,3 +1,6 @@
+/*
+This is the simplest way to sort a sequence. But its time complexity is O(n2).
+*/
 void stright_insert_sort(int *a, int n){
 	int i;
 	for(i=1; i<n; i++){
