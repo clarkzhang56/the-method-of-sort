@@ -1,5 +1,7 @@
 /*
-The heap sort is a kind of select sort. 
+The heap sort is a kind of select sort. Its worst time complexity is O(nlogn).This is the biggest advantage
+than of quick sort. What's more, heap sort needs only one auxiliart storage memory to exchange.
+
 It can be divide into two parts. 1st part is used for adjusting the heap to the 
 big_heap which means the father node is bigger than its two son nodes.
 2nd part exchange the root node with the last node. So the bigger one is pushed to the 
