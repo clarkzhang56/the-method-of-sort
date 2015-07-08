@@ -1,0 +1,21 @@
+/*
+This is the simple selection sort. It's now a stable method.
+A is the array. N is the length of the array.
+*/
+void selection_sort(int *a, int n){
+	int i;
+	for(i=1; i<n; i++){
+		int j=i-1;
+		int base= a[j];
+		int k=j;
+		for(; j<n; j++){
+			if(a[j]< base){
+				base = a[j];
+				k = j;
+			}
+		}
+		int tmp = a[i-1];
+		a[i-1] = a[k];
+		a[k] = tmp;
+	}
+}
