@@ -22,7 +22,7 @@ int maxlen(int *a,int n){
 void radix_sort(int *a, int n, int max){
 	int num = 0;
 	for(; num<max; num++){
-		int b[10][MAXSIZE] = {}};
+		int b[10][MAXSIZE] = {};
 		int i,j,k = 0;
 		for(i=0; i<n; i++){
 			j = ((int)(a[i]/(pow(10,num))))%10;
